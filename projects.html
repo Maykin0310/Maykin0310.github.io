@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Projects - My Resume</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Overview of my projects and accomplishments.">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="jumbotron text-center">
+        <h1>Welcome to My Resume</h1>
+        <p>Your journey to learn more about me starts here!</p>
+    </div>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">My Resume</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li class="active"><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Projects</h1>
+        <p>Here are some of the projects I have worked on:</p>
+
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Tic Tac Toe game</h2>
+                <p>Tic-tac-toe is a 2-player game where players mark X and O on a 3×3 grid, aiming to get 3 in a row to
+                    win. We’ve developed a solo version that doesn’t require two players. (Using Assembly and ISIS7)</p>
+                <img src="tictactoe.jpg" alt="Project Image 1" class="img-responsive fakeimg">
+            </div>
+            <div class="col-md-6">
+                <h2>Application of FFT with FIR filter</h2>
+                <p>Digital Signal Processing (DSP) uses digital tools to analyze and improve signals. The Discrete
+                    Fourier Transform (DFT) finds frequency components, while the Fast Fourier Transform (FFT) and FIR
+                    Filters manage complex signals and enhance quality. This project explores these techniques,
+                    demonstrates filter design, and highlights FFT's role in frequency analysis, using MATLAB.</p>
+                <img src="fft.jpg" alt="Project Image 2" class="img-responsive fakeimg">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Easy Cozy Home</h2>
+                <p>The Arduino system uses an L296 motor driver, soil moisture sensor, DS18B20 temperature sensor, and
+                    Node-RED. Arduino controls door motors, manages lights, monitors soil moisture and temperatures, and
+                    sends data to Node-RED. Node-RED displays data, controls actions, and automates tasks based on
+                    sensor inputs.</p>
+                <img src="cozyhome.jpg" alt="Project Image 3" class="img-responsive fakeimg">
+            </div>
+            <div class="col-md-6">
+                <h2>Best Company</h2>
+                <p>Creating a web app with Flutter and testing it on a simulator involves developing the web application
+                    using Flutter and verifying its compatibility with mobile devices through an emulator. Testing on a
+                    mobile simulator helps ensure that the UI and functionality are properly adapted for smaller screen
+                    sizes.</p>
+                <img src="mobile.jpg" alt="Project Image 4" class="img-responsive fakeimg">
+            </div>
+        </div>
+
+        <h3>Quick Links</h3>
+        <ul class="nav nav-pills nav-stacked">
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        <p>Maykin Meechokdee © 2024</p>
+    </div>
+
+</body>
+
+</html>
